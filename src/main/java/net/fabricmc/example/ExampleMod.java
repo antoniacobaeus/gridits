@@ -14,11 +14,11 @@ public class ExampleMod implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
-	public static final Item GRIDIT = new Item(new FabricItemSettings());
+	public static final CustomItem GRIDIT = new CustomItem(new FabricItemSettings());
 
 	@Override
 	public void onInitialize() {
-		Registry.register(Registries.ITEM, new Identifier("tutorial", "custom_item"), GRIDIT);
+		Registry.register(Registries.ITEM, new Identifier("gridkoping", "gridit"), GRIDIT);
 	}
 
 }
