@@ -1,12 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "gridkoping",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Gridköping Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "agnespagnes2",
+    "Dewlow3",
+    "moaanna"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +21,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.gridkoping.GridkopingMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "gridkoping.mixins.json"
   ],
 
   "depends": {
