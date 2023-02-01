@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# Installering
 
-## Setup
+För att kunna använda moddet (och kunna handla i Gridköping) behöver man först installera fabric på sin egna minecraft-launcher. Här finns lite instruktioner på hur man kan gå till väga:
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+- Steg 1: Ladda ner plugin till launchern [här](https://fabricmc.net/use/installer/). Har man en terminal kan man använda `java -jar [fabric-launcher]` för att installera filen man ladda ned. Har man Windows kan man ladda ned windows-versionen (som jag antar installerar sig själv?).
 
-## License
+- Steg 2: Ladda ned Fabric API [här](https://www.curseforge.com/minecraft/mc-mods/fabric-api) och placera i minecrafts mods-mapp. Mods mappen kan oftast hittas i `C:\Users\\[username]\AppData\Roaming\\.minecraft\mods` på Windows och `~/Library/Application Support/minecraft/mods` på Mac. Finns det ingen mods mapp där går det bra att skapa en.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+- Steg 3: Ladda ned gridits moddet från det här repot och placera i mods-mappen nämnd ovan.
+
+- Steg 4: Starta minecraft med fabric från launcher och håll tummarna att det fungerar 🤞🤞
